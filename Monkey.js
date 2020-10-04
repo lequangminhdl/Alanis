@@ -1,5 +1,3 @@
-//https:\/\/www\.api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update?
-
 var obj = JSON.parse($response.body);
 
 obj.data.purchased=
