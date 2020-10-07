@@ -7,7 +7,7 @@ obj = {
         "validUntil":4099821292
     }
 "subscription"."userType" {
-		"code":1,
+        "code":1,
         "name":"Premium"
     }
     };
