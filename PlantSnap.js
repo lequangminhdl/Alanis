@@ -1,14 +1,8 @@
 var obj = JSON.parse($response.body);
-
-obj = {
-"subscription" {
-        "active":true,
-        "plan":"monthly",
-        "validUntil":4099821292
-    }
-"subscription"."userType" {
-        "code":1,
-        "name":"Premium"
-    }
+obj.subscription = 
+{
+	"active":true,
+	"plan":"net.plantsnap.freemium.app.yearly.discount.50",
+	"validUntil":"2084-05-10 05:56:31"
     };
 $done({body: JSON.stringify(obj)});
