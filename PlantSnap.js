@@ -1,9 +1,5 @@
 var obj = JSON.parse($response.body);
 
-obj.userType = {
-	"code":1,
-	"name":"subscribed"
-};
 obj.subscription = {
 	"active":true,
 	"validUntil":"2084-05-10 05:56:31",
