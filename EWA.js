@@ -9,4 +9,11 @@ obj.result.user.bill = {
 	"daysLeft": 365,
 	"period": "6"
 	};
+obj.plans = [
+	{"name": "com.ewa.unlimited",
+	 "description": "iOS unlimited 5990",
+	 "packageName": "com.ewa.ewaapp",
+	 "platform": "iOS",
+	 "type": "Unlimited"		
+	}];
 $done({body: JSON.stringify(obj)});
