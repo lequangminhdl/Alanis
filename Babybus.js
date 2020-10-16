@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 
-obj.data = [
-{
+obj =
+"data" : [{
 	"is_vip": true,
 	"is_subscribe": 1,
 	"end_time": 3790570877,
