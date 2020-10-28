@@ -1,3 +1,5 @@
+var body = $response.body;
+var url = $request.url;
 var obj = JSON.parse($response.body);
 
  obj = {
@@ -5,7 +7,6 @@ var obj = JSON.parse($response.body);
   "tier" : 4,
   "leaderboard" : {
       "active_contest" : {
-      "contest_id" : "c5b85d7f-ba53-4e7a-9c2e-753f346ade1d",
       "contest_end" : "2030-11-02T00:00:00Z",
       "registration_state" : "OPEN",
       "registration_end" : "2030-11-01T00:00:00Z",
@@ -16,4 +17,5 @@ var obj = JSON.parse($response.body);
   "ended" : []
  };
 
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(obj);
+$done({body});
