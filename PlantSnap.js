@@ -4,7 +4,7 @@ var obj = JSON.parse($response.body);
   "uid" : "kLCxCC8Hn6Quqx2yA7Dxkgc4Mpm2",
   "subscription" : {
     "plan" : "net.plantsnap.freemium.app.yearly.discount.50",
-    "validUntil" : "2021-10-07 05:56:31",
+    "validUntil" : "2029-10-07 05:56:31",
     "active" : true
   },
   "userType" : {
