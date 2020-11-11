@@ -1,6 +1,5 @@
 var obj = JSON.parse($response.body);
-obj.subscriber = {
-"subscriptions" : {
+obj["subscriber"]["subscriptions"]= {
       "com.laubrothersllc.BabyArt.autoalbums3daytrial" : {
         "is_sandbox" : false,
         "period_type" : "normal",
@@ -12,7 +11,7 @@ obj.subscriber = {
         "store" : "app_store"
       }
     },
-"entitlements" : {
+obj["subscriber"]["entitlements"]= {
       "unlimited" : {
         "expires_date" : "2090-02-18T07:52:54Z",
         "product_identifier" : "com.laubrothersllc.BabyArt.autoalbums3daytrial",
