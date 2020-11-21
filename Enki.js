@@ -1,3 +1,5 @@
 var obj = JSON.parse($response.body);
-obj.pro = true,
+obj = {
+  "pro" : true
+};
 $done({body: JSON.stringify(obj)});
