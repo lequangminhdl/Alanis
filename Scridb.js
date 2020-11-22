@@ -1,20 +1,19 @@
 var obj = JSON.parse($response.body);
-obj.result = {
-   "membership_info" : {
-      "status" : "member",
-      "resume_date" : null,
-      "credit_cache_bust" : "c3b1895ab5c2fb817ea750a9768aa1b8",
-      "bill_date" : 1606787286,
-      "pays_additional_tax" : true,
-      "has_pmp_access" : true,
-      "end_date" : null,
-      "bill_method" : "credit card",
-      "next_bill_price" : {
-        "value" : 8.9900000000000002,
-        "currency" : "USD"
-      }
-    "is_referral_creditable" : true,
-    "credit_next_accrual_date" : 1606787286,
-    "is_paused" : false,
+obj = {
+   "result" : {
+    "state" : "active",
+    "next_payment_due" : 3632530288,
+    "last_paid_date" : 1600994294,
+    "total_price" : {
+      "value" : 84.989999999999995,
+      "currency" : "USD"
+    },
+    "description" : "Annual recurring membership",
+    "type" : "credit card",
+    "title" : "Annual Pass",
+    "subscription" : true,
+    "product_handle" : "scribd-pmp-annual-subscription",
+    "subscription_duration" : "1.year"
+}
 };
 $done({body: JSON.stringify(obj)});
