@@ -10,7 +10,7 @@ obj = {
     },
     "id" : 5,
     "price" : 139.94999999999999,
-    "title" : "Annual",
+    "title" : "Lifetime",
     "firstThreeMonthsPromo" : 0,
     "priceMoney" : {
       "currency" : "USD",
@@ -20,6 +20,7 @@ obj = {
     "periodMonths" : 12,
     "hasTrial" : false
   },
+  "customerSince" : "Dec 9, 2018 1:23:57 PM",
   "nextPayDate" : "Oct 9, 2084 6:40:59 AM",
   "isAppleSubscription" : false,
   "isCancelled" : false
