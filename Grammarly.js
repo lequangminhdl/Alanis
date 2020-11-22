@@ -10,7 +10,7 @@ obj = {
     },
     "id" : 5,
     "price" : 139.94999999999999,
-    "title" : "Lifetime",
+    "title" : "Annual",
     "firstThreeMonthsPromo" : 0,
     "priceMoney" : {
       "currency" : "USD",
