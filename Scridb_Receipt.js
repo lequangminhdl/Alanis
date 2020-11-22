@@ -14,7 +14,7 @@ if (url.indexOf(path1) != -1) {
   obj.result.user_subscription.membership_info.next_bill_price["value"] = 84.989999999999995;
   obj.result.user_subscription.membership_info.next_bill_price["currency"] = "USD";
   obj.result.user_subscription.membership_info"is_referral_creditable" : true;
-  obj.result.user_subscription.membership_info"credit_next_accrual_date" : 1606264688;
+  obj.result.user_subscription.membership_info"credit_next_accrual_date" : 3606264688;
   body = JSON.stringify(obj);  
  }
 
