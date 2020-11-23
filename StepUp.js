@@ -1,7 +1,7 @@
 var body = $response.body;
 var url = $request.url;
 
-const path1 = 'book/api/v1/roadmap';
+const path1 = '/book/api/v1/roadmap';
 
 let obj = JSON.parse(body);
 
