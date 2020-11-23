@@ -1,4 +1,7 @@
 var obj = JSON.parse($response.body);
+var url = $request.url;
+var cons = "auth/token";
+if(url.indexOf(cons) != -1)
 obj = {
   "is_premium" : 1,
   "ref_code_done" : 1,
@@ -8,6 +11,6 @@ obj = {
     "premium" : 1
   },
   "premium_without_pay" : 0,
-  "role" : 1,
+  "role" : 1
 };
-done({body: JSON.stringify(obj)});
+$done({body: JSON.stringify(obj)});
