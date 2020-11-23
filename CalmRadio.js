@@ -1,3 +1,4 @@
 var obj = JSON.parse($response.body);
-obj.license_count = 0,
+obj.license_count = 1,
+obj.status = 0;
 $done({body: JSON.stringify(obj)});
