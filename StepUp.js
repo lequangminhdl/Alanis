@@ -1,8 +1,5 @@
-let url=$request.url;
-let obj=JSON.parse($response.body);
-
-if(url.indexOf('roadmap')!=-1){
+body = $response.body.replace(/while.{7}\n/, "");
+let obj = JSON.parse(body);
     obj.data.detail.children.books.blocks[["is_lock"]] = false
-    };
-
-$done({body:JSON.stringify(obj)});
+body = JSON.stringify(obj); 
+$done({body});
