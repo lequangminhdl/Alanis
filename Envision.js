@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 obj["subscriber"]["subscriptions"]= {
-      "com.envision.beta.sub.annual" : {
+      "com.envision.annual" : {
         "is_sandbox" : false,
         "period_type" : "normal",
         "billing_issues_detected_at" : null,
@@ -14,7 +14,7 @@ obj["subscriber"]["subscriptions"]= {
 obj["subscriber"]["entitlements"]= {
       "pro" : {
         "expires_date" : "2090-02-18T07:52:54Z",
-        "product_identifier" : "com.envision.beta.sub.annual",
+        "product_identifier" : "com.envision.annual",
         "purchase_date" : "2020-02-11T07:52:54Z"
       }
     },
