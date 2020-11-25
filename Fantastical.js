@@ -1,12 +1,4 @@
-/*
-^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body fantastical.js
-hostname=api.flexibits.com
-*/
-
-let url=$request.url;
-let obj=JSON.parse($response.body);
-
-if(url.indexOf('details')!=-1){
+var obj = JSON.parse($response.body);
 
   obj.subscription={
 		"autorenew": true,
@@ -16,6 +8,5 @@ if(url.indexOf('details')!=-1){
 		"is_expired": false,
 		"trial": false
   };
-}
 
 $done({body:JSON.stringify(obj)});
