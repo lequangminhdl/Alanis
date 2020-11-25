@@ -2,7 +2,7 @@ var obj = JSON.parse($response.body);
 obj["subscriber"]["subscriptions"]= {
       "com.envision.annual" : {
         "is_sandbox" : false,
-        "period_type" : "active",
+        "period_type" : "trial",
         "billing_issues_detected_at" : null,
         "unsubscribe_detected_at" : null,
         "expires_date" : "2090-02-18T07:52:54Z",
