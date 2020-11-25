@@ -12,7 +12,7 @@ obj["subscriber"]["subscriptions"]= {
       }
     },
 obj["subscriber"]["entitlements"]= {
-      "pro" : {
+      "unlimited" : {
         "expires_date" : "2090-02-18T07:52:54Z",
         "product_identifier" : "com.envision.annual",
         "purchase_date" : "2020-02-11T07:52:54Z"
