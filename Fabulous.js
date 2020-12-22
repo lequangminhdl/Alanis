@@ -18,10 +18,10 @@ obj= {
     "conditionDialogsPremiumswitches" : "v2_premiumswitches_half",
     "isPremium" : "true",
     "idfa" : "00000000-0000-0000-0000-000000000000",
-    "isOrganic" : "true",
+    "isOrganic" : true,
     "conditionFullsphereFreebar" : "Free Bar",
-    "isWebSubscriber" : "false",
-    "conditionHabitLimitWarningPremiumIteration2" : "v2_5limit",
+    "isWebSubscriber" : true,
+    "conditionHabitLimitWarningPremiumIteration2" : "v2_5limit"
   }
 };
 $done({body: JSON.stringify(obj)});
