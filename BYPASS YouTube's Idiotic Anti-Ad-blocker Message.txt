@@ -1,4 +1,5 @@
 ! Title: BYPASS YouTube's Idiotic Anti-Ad-blocker Message
+! Description: Anti-Ad-blocker Message of Youtube
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
